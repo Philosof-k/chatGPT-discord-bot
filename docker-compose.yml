@@ -6,4 +6,4 @@ services:
     image: chatgpt-discord-bot
     container_name: chatgpt-discord-bot
     volumes:
-      - ./.env:/DiscordBot/.env
+      - /docker/chatgpt-discord-bot/.env:/DiscordBot/.env
